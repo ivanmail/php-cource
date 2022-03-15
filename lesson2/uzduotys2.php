@@ -11,9 +11,40 @@ skaičiui 3 tris kartus pritaikykite increment operatorių - koki skaičių gaun
 skaičiui 12 keturis kartus pritaikykite decrement operatorių - koki skaičių gaunate?
 */
 
+// echo 987 + 545 - 32 * 94;
+// echo PHP_EOL;
+
+// echo 32 ** 3 + 18;
+// echo PHP_EOL;
+
+// echo 120 / 4 / 3;
+// echo PHP_EOL;
+
+// echo 187 % 5;
+// echo PHP_EOL;
+
+// $skaicius = 3;
+// $skaicius++;
+// $skaicius++;
+// $skaicius++;
+
+// echo $skaicius;
+// echo PHP_EOL;
+
+
+// $skaicius = 12;
+// $skaicius--;
+// $skaicius--;
+// $skaicius--;
+// $skaicius--;
+
+// echo $skaicius;
+// echo PHP_EOL;
+
 /*
 2. Išspausdinkite skaičius nuo 1 iki 10 naudodamiesi ciklu. Panaudokite visus 4 būdus ciklams aprašyti.
 Kiekvienas skaičius turi išspausdintas naujoje eilutėje. 
+
 
 1
 2
@@ -21,10 +52,30 @@ Kiekvienas skaičius turi išspausdintas naujoje eilutėje.
 ...
 */
 
+// $i = 0;
+// while($i < 10) {
+//     echo ++$i . PHP_EOL;
+// }
+
+// $i = 1;
+// do {
+//     echo $i++ . PHP_EOL;
+// } while ($i <= 10);
+
+// for($i = 1; $i <= 10; $i++) {
+//     echo $i . PHP_EOL;
+// }
+
+
+
 /*
 3. Išspausdinkite skaičius nuo 15 iki 3 naudodamiesi ciklu. Panaudokite sau patogiausią ciklą.
 Kiekvienas skaičius turi išspausdintas naujoje eilutėje. 
 */
+
+// for($i = 15; $i >= 3; $i--) {
+//     echo $i . PHP_EOL;
+// }
 
 /*
 4. Išspausdinkite kas antrą skaičių nuo 1 iki 20 naudodamiesi ciklu.
@@ -36,10 +87,25 @@ Kiekvienas skaičius turi išspausdintas naujoje eilutėje.
 ...
 */
 
+// $i = 1;
+// while($i <= 20) {
+//     echo $i . PHP_EOL;
+//     $i += 2;
+// }
+
 /*
 5. Išspausdinkite skaičius, nuo 1 iki 20, kurie dalijasi iš 3.
 Kiekvienas skaičius turi išspausdintas naujoje eilutėje. 
 */
+
+// $i = 1;
+// do {
+//     if($i % 3 === 0) {
+//         echo $i . PHP_EOL;    
+//     }
+
+//     $i++;
+// } while($i <= 20);
 
 /*
 6. Išspausdinkite skaičius, nuo 1 iki 20, kurie dalijasi iš 3 arba iš 5.
